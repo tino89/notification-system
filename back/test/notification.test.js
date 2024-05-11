@@ -1,8 +1,8 @@
 const request = require("supertest")
 const app = require("../app")
-const notification = require("../database/repository/notificationRepository")
+//const notification = require("../database/repository/notificationRepository")
 
-jest.mock('notification');
+//jest.mock('notification');
 
 describe("Testing notification endpoint", () => {
     
